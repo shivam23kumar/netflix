@@ -15,7 +15,7 @@ const Login = () => {
         navigate('/')
         } catch (error) {
         console.log(error);
-        setError(error.message)
+        setError("Wrong Email/Password, please check.")
         }
     };
     return (
